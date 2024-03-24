@@ -36,6 +36,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddScoped<ITokenGenerator, TokenGenerator>();
 builder.Services.AddScoped<IPersonGenerator, PersonGenerator>();
+builder.Services.AddScoped<IVisitedCountriesGenerator, VisitedCountriesGenerator>();
+builder.Services.AddScoped<ICountryGenerator, CountryGenerator>();
+
 builder.Services.AddSwaggerGen(options =>
 {
     options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
