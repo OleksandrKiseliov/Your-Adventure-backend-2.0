@@ -91,19 +91,9 @@ C:\Users\sport\Source\Repos\Your-Adventure-backend\YourAdventure\YourAdventure.B
 C:\Users\sport\Source\Repos\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\refint\YourAdventure.BusinessLogic.dll
 C:\Users\sport\Source\Repos\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.pdb
 C:\Users\sport\Source\Repos\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\ref\YourAdventure.BusinessLogic.dll
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\bin\Debug\net6.0\YourAdventure.BusinessLogic.deps.json
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\bin\Debug\net6.0\YourAdventure.BusinessLogic.dll
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\bin\Debug\net6.0\YourAdventure.BusinessLogic.pdb
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\bin\Debug\net6.0\YourAdventure.DataAccess.dll
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\bin\Debug\net6.0\YourAdventure.DataAccess.pdb
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.csproj.AssemblyReference.cache
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.AssemblyInfoInputs.cache
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.AssemblyInfo.cs
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.csproj.CoreCompileInputs.cache
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.sourcelink.json
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdve.B6742F63.Up2Date
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.dll
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\refint\YourAdventure.BusinessLogic.dll
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.pdb
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\ref\YourAdventure.BusinessLogic.dll
+C:\Users\123\Desktop\ya\your adventure\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.dll
+C:\Users\123\Desktop\ya\your adventure\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\refint\YourAdventure.BusinessLogic.dll
+C:\Users\123\Desktop\ya\your adventure\Your-Adventure-backend\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.pdb
+C:\Users\123\Desktop\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.dll
+C:\Users\123\Desktop\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\refint\YourAdventure.BusinessLogic.dll
+C:\Users\123\Desktop\YourAdventure\YourAdventure.BusinessLogic\obj\Debug\net6.0\YourAdventure.BusinessLogic.pdb

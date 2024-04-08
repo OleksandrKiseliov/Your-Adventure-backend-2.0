@@ -20,7 +20,7 @@ namespace YourAdventure.Controllers
         {
             var persons = await _personGenerator.GetAllPersons();
             return Ok(persons);
-        }   
+        }
 
         [HttpGet("{Email}")]
         public async Task<ActionResult<Person>> GetPerson(string Email)
@@ -52,6 +52,19 @@ namespace YourAdventure.Controllers
         {
             await _personGenerator.DeletePerson(PersonId);
             return NoContent();
+        }
+
+        [HttpPost("signin")]
+        public async Task<ActionResult<Person>> SignIn(Person person)
+        {
+            var isPasswordValid = await _personGenerator.VerifyPassword(person.Email, person.Password);
+            if (!isPasswordValid)
+            {
+                return Unauthorized();
+            }
+
+            var retrievedPerson = await _personGenerator.GetPerson(person.Email);
+            return Ok(retrievedPerson);
         }
     }
 }

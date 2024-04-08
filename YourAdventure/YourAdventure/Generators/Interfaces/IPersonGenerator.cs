@@ -10,4 +10,5 @@ public interface IPersonGenerator
     Task<Person> NewPerson(Person person);
     Task<Person> UpdatePerson(Person person);
     Task<List<Person>> DeletePerson(int PersonId);
+    Task<bool> VerifyPassword(string email, string password);
 }

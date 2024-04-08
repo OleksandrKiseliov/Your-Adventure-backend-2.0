@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\YourAdventure.csproj": {}
+    "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure\\YourAdventure.csproj": {}
   },
   "projects": {
-    "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj": {
+    "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj",
         "projectName": "YourAdventure.BusinessLogic",
-        "projectPath": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.BusinessLogic\\obj\\",
+        "projectPath": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj": {
-                "projectPath": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj"
+              "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj"
               }
             }
           }
@@ -38,11 +42,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -64,21 +63,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj": {
+    "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj",
         "projectName": "YourAdventure.DataAccess",
-        "projectPath": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.DataAccess\\obj\\",
+        "projectPath": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.DataAccess\\YourAdventure.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -98,11 +101,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -124,21 +122,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\YourAdventure.csproj": {
+    "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure\\YourAdventure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\YourAdventure.csproj",
+        "projectUniqueName": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure\\YourAdventure.csproj",
         "projectName": "YourAdventure",
-        "projectPath": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\YourAdventure.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\obj\\",
+        "projectPath": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure\\YourAdventure.csproj",
+        "packagesPath": "C:\\Users\\123\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\123\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,8 +154,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj": {
-                "projectPath": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj"
+              "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure.BusinessLogic\\YourAdventure.BusinessLogic.csproj"
               }
             }
           }
@@ -162,11 +164,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -223,7 +220,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

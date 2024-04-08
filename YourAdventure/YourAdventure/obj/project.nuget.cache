@@ -1,62 +1,423 @@
 {
   "version": 2,
-  "dgSpecHash": "aapu2jYQKWtYisXz9VoGr0ugyOSzG93f4I0L4kmMs+qOZIDajbkJ0wcYJCV7GGIDidYRlR5k2T9IT52G2YcLiQ==",
-  "success": true,
-  "projectFilePath": "D:\\yradv_current\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\YourAdventure.csproj",
+  "dgSpecHash": "/6TvuVyuqzUj7BK6SknaRxrwgTuHT2g2Xz6QWfX7Dmi41CO7UYJiYganY9Flrwq/Fe5V2PR/ziscjKHHeq3Kog==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\123\\Desktop\\YourAdventure\\YourAdventure\\YourAdventure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.28\\microsoft.aspnetcore.authentication.jwtbearer.6.0.28.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlclient\\5.2.0\\microsoft.data.sqlclient.5.2.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.2.0\\microsoft.data.sqlclient.sni.runtime.5.2.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.28\\microsoft.extensions.apidescription.server.6.0.28.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identity.client\\4.56.0\\microsoft.identity.client.4.56.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.56.0\\microsoft.identity.client.extensions.msal.4.56.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.35.0\\microsoft.identitymodel.jsonwebtokens.6.35.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identitymodel.logging\\6.35.0\\microsoft.identitymodel.logging.6.35.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.35.0\\microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.35.0\\microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.35.0\\microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.caching\\6.0.0\\system.runtime.caching.6.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
+    "C:\\Users\\123\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.28\\microsoft.aspnetcore.authentication.jwtbearer.6.0.28.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.data.sqlclient\\5.2.0\\microsoft.data.sqlclient.5.2.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\5.2.0\\microsoft.data.sqlclient.sni.runtime.5.2.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.28\\microsoft.extensions.apidescription.server.6.0.28.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.identity.client\\4.56.0\\microsoft.identity.client.4.56.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.56.0\\microsoft.identity.client.extensions.msal.4.56.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.35.0\\microsoft.identitymodel.jsonwebtokens.6.35.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.identitymodel.logging\\6.35.0\\microsoft.identitymodel.logging.6.35.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.identitymodel.protocols\\6.35.0\\microsoft.identitymodel.protocols.6.35.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.35.0\\microsoft.identitymodel.protocols.openidconnect.6.35.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.35.0\\microsoft.identitymodel.tokens.6.35.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.configuration.configurationmanager\\6.0.1\\system.configuration.configurationmanager.6.0.1.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.data.sqlclient\\4.8.6\\system.data.sqlclient.4.8.6.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.io.filesystem.accesscontrol\\5.0.0\\system.io.filesystem.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.runtime.caching\\6.0.0\\system.runtime.caching.6.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.security.cryptography.protecteddata\\6.0.0\\system.security.cryptography.protecteddata.6.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\123\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.Data.SqlClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.Data.SqlClient.SNI.runtime"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Azure.Identity"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Azure.Core"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.Bcl.AsyncInterfaces"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Diagnostics.DiagnosticSource"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Runtime.CompilerServices.Unsafe"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Memory.Data"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Numerics.Vectors"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Text.Encodings.Web"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.Identity.Client.Extensions.Msal"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.IO.FileSystem.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Security.Principal.Windows"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Memory"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Text.Json"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Threading.Tasks.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.Identity.Client"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.IdentityModel.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.IdentityModel.Protocols.OpenIdConnect"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.IdentityModel.Protocols"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.IdentityModel.Logging"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.IdentityModel.Abstractions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.IdentityModel.Tokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.CSharp"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Security.Cryptography.Cng"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.IdentityModel.JsonWebTokens"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Text.Encoding"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.NETCore.Targets"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Runtime"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.SqlServer.Server"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Security.Permissions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Windows.Extensions"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Drawing.Common"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.Win32.SystemEvents"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Runtime.Caching"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.IdentityModel.Tokens.Jwt"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Swashbuckle.AspNetCore"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Swashbuckle.AspNetCore.Swagger"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.OpenApi"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerGen"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Swashbuckle.AspNetCore.SwaggerUI"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Dapper"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Data.SqlClient"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.Win32.Registry"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Security.AccessControl"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.NETCore.Platforms"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "runtime.native.System.Data.SqlClient.sni"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "runtime.win-arm64.runtime.native.System.Data.SqlClient.sni"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "runtime.win-x64.runtime.native.System.Data.SqlClient.sni"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "runtime.win-x86.runtime.native.System.Data.SqlClient.sni"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "System.Security.Principal.Windows"
+    },
+    {
+      "code": "NU1301",
+      "level": "Error",
+      "message": "Локальный источник \"C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages\" не существует.",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer"
+    }
+  ]
 }

@@ -1,114 +1,5 @@
 [
   {
-    "ContainingType": "YourAdventure.Controllers.CountryController",
-    "Method": "GetAllCountries",
-    "RelativePath": "api/Country",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[YourAdventure.Models.Country, YourAdventure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.CountryController",
-    "Method": "NewCountry",
-    "RelativePath": "api/Country",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "country",
-        "Type": "YourAdventure.Models.Country",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "YourAdventure.Models.Country",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.CountryController",
-    "Method": "GetCountry",
-    "RelativePath": "api/Country/{CountryId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "CountryId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "YourAdventure.Models.Country",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.CountryController",
-    "Method": "UpdateCountry",
-    "RelativePath": "api/Country/{CountryId}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "CountryId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "country",
-        "Type": "YourAdventure.Models.Country",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.CountryController",
-    "Method": "DeleteCountry",
-    "RelativePath": "api/Country/{CountryId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "CountryId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "YourAdventure.Controllers.PersonController",
     "Method": "GetAllPersons",
     "RelativePath": "api/Person",
@@ -170,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "YourAdventure.Person",
+        "Type": "System.Collections.Generic.List\u00601[[YourAdventure.Person, YourAdventure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -250,22 +141,6 @@
   },
   {
     "ContainingType": "YourAdventure.Controllers.PhotoController",
-    "Method": "DeletePhoto",
-    "RelativePath": "api/Photo/{Id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "Id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.PhotoController",
     "Method": "UploadPhoto",
     "RelativePath": "api/Photo/upload",
     "HttpMethod": "POST",
@@ -279,11 +154,6 @@
       },
       {
         "Name": "countryFId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "personFId",
         "Type": "System.Int32",
         "IsRequired": false
       }
@@ -315,129 +185,5 @@
       }
     ],
     "ReturnTypes": []
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
-    "Method": "GetAllVisitedCountries",
-    "RelativePath": "api/VisitedCountries",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[YourAdventure.Models.VisitedCountries, YourAdventure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
-    "Method": "AddVisitedCountry",
-    "RelativePath": "api/VisitedCountries",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "visitedCountry",
-        "Type": "YourAdventure.Models.VisitedCountries",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "YourAdventure.Models.VisitedCountries",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
-    "Method": "GetVisitedCountry",
-    "RelativePath": "api/VisitedCountries/{PersonFId}/{CountryFId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "PersonFId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "CountryFId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "YourAdventure.Models.VisitedCountries",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
-    "Method": "DeleteVisitedCountry",
-    "RelativePath": "api/VisitedCountries/{PersonFId}/{CountryFId}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "PersonFId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      },
-      {
-        "Name": "CountryFId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
-    "Method": "GetVisitedCountries",
-    "RelativePath": "api/VisitedCountries/{personId}/visitedcountries",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "personId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Collections.Generic.List\u00601[[YourAdventure.Models.Country, YourAdventure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 200
-      }
-    ]
   }
 ]

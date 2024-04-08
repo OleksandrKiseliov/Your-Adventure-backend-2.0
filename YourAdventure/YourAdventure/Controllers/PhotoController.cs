@@ -7,7 +7,6 @@ using System.Text;
 using System.Threading.Tasks;
 using YourAdventure.Models;
 using System;
-using YourAdventure.BusinessLogic.Services.Interfaces;
 
 namespace YourAdventure.Controllers
 {
@@ -15,32 +14,54 @@ namespace YourAdventure.Controllers
     [ApiController]
     public class PhotoController : ControllerBase
     {
-        private readonly IPhotoGenerator _photoGenerator;
+        private readonly IConfiguration _config;
 
-        public PhotoController(IPhotoGenerator photoGenerator)
+        public PhotoController(IConfiguration config)
         {
-            _photoGenerator = photoGenerator;
+            _config = config;
         }
 
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadPhoto([FromForm] FileUploadViewModel model, int countryFId, int personFId)
+        public async Task<IActionResult> UploadPhoto([FromForm] FileUploadViewModel model, int countryFId)
         {
-            var photo = await _photoGenerator.UploadPhoto(model, countryFId, personFId);
-            return Ok(photo);
+            if (model?.File == null || model.File.Length == 0)
+            {
+                return BadRequest("No file uploaded.");
+            }
+
+            using var stream = new MemoryStream();
+            await model.File.CopyToAsync(stream);
+            var fileBytes = stream.ToArray();
+
+            var photo = new Photo
+            {
+                PhotoStr = Convert.ToBase64String(fileBytes),
+                CountryFId = countryFId
+            };
+
+            var sql = "INSERT INTO Photo (Photo, CountryFId) VALUES (@PhotoStr, @CountryFId); SELECT CAST(SCOPE_IDENTITY() as int);";
+
+            using (var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection")))
+            {
+                var id = await connection.QuerySingleAsync<int>(sql, photo);
+                return Ok(photo);
+            }
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetPhoto(int id)
         {
-            var photoBytes = await _photoGenerator.GetPhoto(id);
-            return Ok(photoBytes);  
-        }
-
-        [HttpDelete("{Id}")]
-        public async Task<IActionResult> DeletePhoto(int Id)
-        {
-            await _photoGenerator.DeletePhoto(Id);
-            return Ok(Id);
+            var sql = "SELECT Photo FROM Photo WHERE PhotoId = @Id;";
+            using (var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection")))
+            {
+                var photoStr = await connection.QuerySingleOrDefaultAsync<string>(sql, new { Id = id });
+                if (string.IsNullOrEmpty(photoStr))
+                {
+                    return NotFound();
+                }
+                var photoBytes = Convert.FromBase64String(photoStr);
+                return File(photoBytes, "image/jpeg");
+            }
         }
     }
 }

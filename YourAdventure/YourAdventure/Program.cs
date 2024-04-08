@@ -38,8 +38,6 @@ builder.Services.AddScoped<ITokenGenerator, TokenGenerator>();
 builder.Services.AddScoped<IPersonGenerator, PersonGenerator>();
 builder.Services.AddScoped<IVisitedCountriesGenerator, VisitedCountriesGenerator>();
 builder.Services.AddScoped<ICountryGenerator, CountryGenerator>();
-builder.Services.AddScoped<IPhotoGenerator, PhotoGenerator>();
-
 
 builder.Services.AddSwaggerGen(options =>
 {

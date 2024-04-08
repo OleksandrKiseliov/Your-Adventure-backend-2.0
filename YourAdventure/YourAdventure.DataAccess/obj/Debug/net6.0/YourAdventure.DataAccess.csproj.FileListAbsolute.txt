@@ -69,15 +69,9 @@ C:\Users\sport\Source\Repos\Your-Adventure-backend\YourAdventure\YourAdventure.D
 C:\Users\sport\Source\Repos\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\refint\YourAdventure.DataAccess.dll
 C:\Users\sport\Source\Repos\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.pdb
 C:\Users\sport\Source\Repos\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\ref\YourAdventure.DataAccess.dll
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\bin\Debug\net6.0\YourAdventure.DataAccess.deps.json
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\bin\Debug\net6.0\YourAdventure.DataAccess.dll
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\bin\Debug\net6.0\YourAdventure.DataAccess.pdb
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.AssemblyInfoInputs.cache
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.AssemblyInfo.cs
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.csproj.CoreCompileInputs.cache
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.sourcelink.json
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.dll
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\refint\YourAdventure.DataAccess.dll
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.pdb
-D:\yradv_current\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\ref\YourAdventure.DataAccess.dll
+C:\Users\123\Desktop\ya\your adventure\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.dll
+C:\Users\123\Desktop\ya\your adventure\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\refint\YourAdventure.DataAccess.dll
+C:\Users\123\Desktop\ya\your adventure\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.pdb
+C:\Users\123\Desktop\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.dll
+C:\Users\123\Desktop\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\refint\YourAdventure.DataAccess.dll
+C:\Users\123\Desktop\YourAdventure\YourAdventure.DataAccess\obj\Debug\net6.0\YourAdventure.DataAccess.pdb
