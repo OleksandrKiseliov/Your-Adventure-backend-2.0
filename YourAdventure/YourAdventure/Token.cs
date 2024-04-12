@@ -23,8 +23,9 @@ public class UserController : ControllerBase
     public async Task<IActionResult> Login(Person model)
     {
         var person = await _personGenerator.GetPerson(model.Email);
+        model.Password = _personGenerator.HashPassword(model.Password);
 
-        if (person != null && model.Nickname == person.Nickname && model.Password == person.Password)
+        if (person != null && model.Email == person.Email && model.Password == person.Password)
         {
             var token = _tokenGenerator.GenerateToken(model);
             return Ok(token);

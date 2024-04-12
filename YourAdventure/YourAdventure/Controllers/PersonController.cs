@@ -53,5 +53,19 @@ namespace YourAdventure.Controllers
             await _personGenerator.DeletePerson(PersonId);
             return NoContent();
         }
+        [HttpPut("updatePassword")]
+       
+        public async Task<IActionResult> ForgetPassword(string Email,string Password)
+        {
+            try
+            {
+                await _personGenerator.ForgetPassword(Email, Password);
+                return Ok("Пароль успішно оновлено.");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Сталася помилка під час оновлення паролю: {ex.Message}");
+            }
+        }
     }
 }
