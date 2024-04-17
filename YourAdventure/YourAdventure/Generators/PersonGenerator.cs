@@ -78,10 +78,11 @@ public class PersonGenerator : IPersonGenerator
     {
         // Отримати особу з бази даних за допомогою методу GetPerson
         var person = await GetPerson(email);
-
+        newPassword=HashPassword(newPassword);
         // Перевірити, чи знайдено особу
         if (person != null)
         {
+            
             // Оновити пароль у знайденій особі
             person.Password = newPassword;
 
