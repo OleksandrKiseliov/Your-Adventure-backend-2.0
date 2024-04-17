@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = YourAdventure.DataAccess
-build_property.ProjectDir = C:\Users\sport\source\repos\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\
+build_property.ProjectDir = D:\Your_adv_settings_fix\Your-Adventure-backend\YourAdventure\YourAdventure.DataAccess\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

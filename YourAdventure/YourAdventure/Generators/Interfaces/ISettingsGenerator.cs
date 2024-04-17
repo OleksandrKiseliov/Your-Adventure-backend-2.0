@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 
 public interface ISettingsGenerator
 {
+    Task<Settings> GetAllSettings();
+    Task<Settings> CreateNewSettings(Settings settings);
     Task<string> GetInterfaceLanguage();
     Task<bool> GetNotificationSetting();
     Task UpdateInterfaceLanguage(string language);

@@ -1,5 +1,176 @@
 [
   {
+    "ContainingType": "YourAdventure.Controllers.ColorController",
+    "Method": "GetAllColors",
+    "RelativePath": "api/Color",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[YourAdventure.Models.Color, YourAdventure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.ColorController",
+    "Method": "NewColor",
+    "RelativePath": "api/Color",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "color",
+        "Type": "YourAdventure.Models.Color",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.CountryController",
+    "Method": "GetAllCountries",
+    "RelativePath": "api/Country",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[YourAdventure.Models.Country, YourAdventure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.CountryController",
+    "Method": "NewCountry",
+    "RelativePath": "api/Country",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "YourAdventure.Models.Country",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "YourAdventure.Models.Country",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.CountryController",
+    "Method": "GetCountry",
+    "RelativePath": "api/Country/{CountryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "YourAdventure.Models.Country",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.CountryController",
+    "Method": "UpdateCountry",
+    "RelativePath": "api/Country/{CountryId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "country",
+        "Type": "YourAdventure.Models.Country",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.CountryController",
+    "Method": "DeleteCountry",
+    "RelativePath": "api/Country/{CountryId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CountryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.InterfaceLanguageController",
+    "Method": "GetAllInterfaceLanguages",
+    "RelativePath": "api/InterfaceLanguage",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.InterfaceLanguageController",
+    "Method": "NewInterfaceLanguage",
+    "RelativePath": "api/InterfaceLanguage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "interfaceLanguage",
+        "Type": "YourAdventure.InterfaceLanguage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "YourAdventure.Controllers.PersonController",
     "Method": "GetAllPersons",
     "RelativePath": "api/Person",
@@ -61,7 +232,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.List\u00601[[YourAdventure.Person, YourAdventure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "YourAdventure.Person",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -124,6 +295,27 @@
     ]
   },
   {
+    "ContainingType": "YourAdventure.Controllers.PersonController",
+    "Method": "ForgetPassword",
+    "RelativePath": "api/Person/updatePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "YourAdventure.Controllers.PhotoController",
     "Method": "GetPhoto",
     "RelativePath": "api/Photo/{id}",
@@ -161,6 +353,84 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "YourAdventure.Controllers.SettingsController",
+    "Method": "GetAllSettings",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.SettingsController",
+    "Method": "CreateNewSettings",
+    "RelativePath": "api/Settings",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "settings",
+        "Type": "YourAdventure.Models.Settings",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.SettingsController",
+    "Method": "GetInterfaceLanguage",
+    "RelativePath": "api/Settings/language",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.SettingsController",
+    "Method": "UpdateInterfaceLanguage",
+    "RelativePath": "api/Settings/language",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "language",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.SettingsController",
+    "Method": "GetNotificationSetting",
+    "RelativePath": "api/Settings/notification",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.SettingsController",
+    "Method": "UpdateNotificationSetting",
+    "RelativePath": "api/Settings/notification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "isEnabled",
+        "Type": "System.Boolean",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "YourAdventure.Controllers.TestController",
     "Method": "Login",
     "RelativePath": "api/Test/login",
@@ -185,5 +455,129 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
+    "Method": "GetAllVisitedCountries",
+    "RelativePath": "api/VisitedCountries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[YourAdventure.Models.VisitedCountries, YourAdventure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
+    "Method": "AddVisitedCountry",
+    "RelativePath": "api/VisitedCountries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "visitedCountry",
+        "Type": "YourAdventure.Models.VisitedCountries",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "YourAdventure.Models.VisitedCountries",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
+    "Method": "GetVisitedCountry",
+    "RelativePath": "api/VisitedCountries/{PersonFId}/{CountryFId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PersonFId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "CountryFId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "YourAdventure.Models.VisitedCountries",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
+    "Method": "DeleteVisitedCountry",
+    "RelativePath": "api/VisitedCountries/{PersonFId}/{CountryFId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "PersonFId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "CountryFId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "YourAdventure.Controllers.VisitedCountriesController",
+    "Method": "GetVisitedCountries",
+    "RelativePath": "api/VisitedCountries/{personId}/visitedcountries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[YourAdventure.Models.Country, YourAdventure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

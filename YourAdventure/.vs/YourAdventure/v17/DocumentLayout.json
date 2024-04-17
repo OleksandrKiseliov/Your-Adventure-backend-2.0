@@ -1,41 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\",
+  "WorkspaceRootPath": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|c:\\users\\sport\\source\\repos\\your-adventure-backend\\youradventure\\youradventure\\generators\\persongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\persongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\controllers\\colorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|c:\\users\\sport\\source\\repos\\your-adventure-backend\\youradventure\\youradventure\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\controllers\\countrycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|c:\\users\\sport\\source\\repos\\your-adventure-backend\\youradventure\\youradventure\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\controllers\\interfacelanguagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\controllers\\interfacelanguagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|c:\\users\\sport\\source\\repos\\your-adventure-backend\\youradventure\\youradventure\\generators\\interfaces\\ipersongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\generators\\interfaces\\icolorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\interfaces\\icolorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\generators\\interfaces\\iinterfacelanguagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\interfaces\\iinterfacelanguagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\generators\\colorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\colorgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\generators\\interfacelanguagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\interfacelanguagegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\models\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\models\\color.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\generators\\interfaces\\isettingsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\interfaces\\isettingsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\generators\\interfaces\\ipersongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\interfaces\\ipersongenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|c:\\users\\sport\\source\\repos\\your-adventure-backend\\youradventure\\youradventure\\generators\\settingsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\settingsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\models\\interfacelanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\models\\interfacelanguage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|c:\\users\\sport\\source\\repos\\your-adventure-backend\\youradventure\\youradventure\\controllers\\visitedcountriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\controllers\\visitedcountriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|c:\\users\\sport\\source\\repos\\your-adventure-backend\\youradventure\\youradventure\\generators\\visitedcountriesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\visitedcountriesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|c:\\users\\sport\\source\\repos\\your-adventure-backend\\youradventure\\youradventure\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\controllers\\settingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|c:\\users\\sport\\source\\repos\\your-adventure-backend\\youradventure\\youradventure\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\controllers\\visitedcountriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\controllers\\visitedcountriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\generators\\settingsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\settingsgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\models\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\models\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\models\\photo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\generators\\visitedcountriesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\generators\\visitedcountriesgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|d:\\your_adv_settings_fix\\your-adventure-backend\\youradventure\\youradventure\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{DE04DE69-FDBF-443D-B5F3-5E436F7F8A88}|YourAdventure\\YourAdventure.csproj|solutionrelative:youradventure\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -46,69 +90,239 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CountryController.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\CountryController.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Controllers\\CountryController.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\CountryController.cs",
+              "RelativeToolTip": "YourAdventure\\Controllers\\CountryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T13:34:56.033Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Token.cs",
-              "DocumentMoniker": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Token.cs",
-              "RelativeDocumentMoniker": "YourAdventure\\Token.cs",
-              "ToolTip": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Token.cs",
-              "RelativeToolTip": "YourAdventure\\Token.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "ColorGenerator.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\ColorGenerator.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Generators\\ColorGenerator.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\ColorGenerator.cs",
+              "RelativeToolTip": "YourAdventure\\Generators\\ColorGenerator.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAABQAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T12:10:02.281Z",
+              "WhenOpened": "2024-04-17T13:18:32.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "IColorGenerator.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\IColorGenerator.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Generators\\Interfaces\\IColorGenerator.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\IColorGenerator.cs",
+              "RelativeToolTip": "YourAdventure\\Generators\\Interfaces\\IColorGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T13:17:23.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IInterfaceLanguageGenerator.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\IInterfaceLanguageGenerator.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Generators\\Interfaces\\IInterfaceLanguageGenerator.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\IInterfaceLanguageGenerator.cs",
+              "RelativeToolTip": "YourAdventure\\Generators\\Interfaces\\IInterfaceLanguageGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:44:57.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ColorController.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\ColorController.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Controllers\\ColorController.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\ColorController.cs*",
+              "RelativeToolTip": "YourAdventure\\Controllers\\ColorController.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T13:22:58.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InterfaceLanguageController.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\InterfaceLanguageController.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Controllers\\InterfaceLanguageController.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\InterfaceLanguageController.cs",
+              "RelativeToolTip": "YourAdventure\\Controllers\\InterfaceLanguageController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAcwBsAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:55:33.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InterfaceLanguageGenerator.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\InterfaceLanguageGenerator.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Generators\\InterfaceLanguageGenerator.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\InterfaceLanguageGenerator.cs",
+              "RelativeToolTip": "YourAdventure\\Generators\\InterfaceLanguageGenerator.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAACAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:48:22.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Program.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Program.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Program.cs",
+              "RelativeToolTip": "YourAdventure\\Program.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAACsAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:25:29.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "IPersonGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\IPersonGenerator.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\IPersonGenerator.cs",
               "RelativeDocumentMoniker": "YourAdventure\\Generators\\Interfaces\\IPersonGenerator.cs",
-              "ToolTip": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\IPersonGenerator.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\IPersonGenerator.cs",
               "RelativeToolTip": "YourAdventure\\Generators\\Interfaces\\IPersonGenerator.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAArwBIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T11:40:47.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "VisitedCountriesGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\VisitedCountriesGenerator.cs",
-              "RelativeDocumentMoniker": "YourAdventure\\Generators\\VisitedCountriesGenerator.cs",
-              "ToolTip": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\VisitedCountriesGenerator.cs",
-              "RelativeToolTip": "YourAdventure\\Generators\\VisitedCountriesGenerator.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAmwCYAAAAeAAAA",
+              "DocumentIndex": 8,
+              "Title": "Color.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\Color.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Models\\Color.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\Color.cs",
+              "RelativeToolTip": "YourAdventure\\Models\\Color.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T10:05:07.189Z"
+              "WhenOpened": "2024-04-17T13:16:28.003Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
+              "Title": "ISettingsGenerator.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\ISettingsGenerator.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Generators\\Interfaces\\ISettingsGenerator.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\Interfaces\\ISettingsGenerator.cs",
+              "RelativeToolTip": "YourAdventure\\Generators\\Interfaces\\ISettingsGenerator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:19:43.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "InterfaceLanguage.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\InterfaceLanguage.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Models\\InterfaceLanguage.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\InterfaceLanguage.cs",
+              "RelativeToolTip": "YourAdventure\\Models\\InterfaceLanguage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:43:55.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SettingsController.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\SettingsController.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Controllers\\SettingsController.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\SettingsController.cs",
+              "RelativeToolTip": "YourAdventure\\Controllers\\SettingsController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T18:58:23.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "VisitedCountriesController.cs",
-              "DocumentMoniker": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\VisitedCountriesController.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\VisitedCountriesController.cs",
               "RelativeDocumentMoniker": "YourAdventure\\Controllers\\VisitedCountriesController.cs",
-              "ToolTip": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\VisitedCountriesController.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\VisitedCountriesController.cs",
               "RelativeToolTip": "YourAdventure\\Controllers\\VisitedCountriesController.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAAACMAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T10:03:29.79Z"
+              "WhenOpened": "2024-04-12T10:03:29.79Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
+              "Title": "SettingsGenerator.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\SettingsGenerator.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Generators\\SettingsGenerator.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\SettingsGenerator.cs",
+              "RelativeToolTip": "YourAdventure\\Generators\\SettingsGenerator.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAAB8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:00:58.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Photo.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\Photo.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Models\\Photo.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\Photo.cs",
+              "RelativeToolTip": "YourAdventure\\Models\\Photo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T19:08:59.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\Settings.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Models\\Settings.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\Settings.cs",
+              "RelativeToolTip": "YourAdventure\\Models\\Settings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T12:20:29.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Properties\\launchSettings.json",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "YourAdventure\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Properties\\launchSettings.json",
               "RelativeToolTip": "YourAdventure\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -116,53 +330,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PersonGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\PersonGenerator.cs",
-              "RelativeDocumentMoniker": "YourAdventure\\Generators\\PersonGenerator.cs",
-              "ToolTip": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\PersonGenerator.cs",
-              "RelativeToolTip": "YourAdventure\\Generators\\PersonGenerator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAuAAAA",
+              "DocumentIndex": 18,
+              "Title": "VisitedCountriesGenerator.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\VisitedCountriesGenerator.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Generators\\VisitedCountriesGenerator.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\VisitedCountriesGenerator.cs",
+              "RelativeToolTip": "YourAdventure\\Generators\\VisitedCountriesGenerator.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T09:17:30.602Z",
+              "WhenOpened": "2024-04-12T10:05:07.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Token.cs",
+              "DocumentMoniker": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Token.cs",
+              "RelativeDocumentMoniker": "YourAdventure\\Token.cs",
+              "ToolTip": "D:\\Your_adv_settings_fix\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Token.cs",
+              "RelativeToolTip": "YourAdventure\\Token.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T12:10:02.281Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Photo.cs",
-              "DocumentMoniker": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\Photo.cs",
-              "RelativeDocumentMoniker": "YourAdventure\\Models\\Photo.cs",
-              "ToolTip": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Models\\Photo.cs",
-              "RelativeToolTip": "YourAdventure\\Models\\Photo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T19:08:59.604Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SettingsGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\SettingsGenerator.cs",
-              "RelativeDocumentMoniker": "YourAdventure\\Generators\\SettingsGenerator.cs",
-              "ToolTip": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Generators\\SettingsGenerator.cs",
-              "RelativeToolTip": "YourAdventure\\Generators\\SettingsGenerator.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowBkAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T19:00:58.174Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "SettingsController.cs",
-              "DocumentMoniker": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\SettingsController.cs",
-              "RelativeDocumentMoniker": "YourAdventure\\Controllers\\SettingsController.cs",
-              "ToolTip": "C:\\Users\\sport\\source\\repos\\Your-Adventure-backend\\YourAdventure\\YourAdventure\\Controllers\\SettingsController.cs",
-              "RelativeToolTip": "YourAdventure\\Controllers\\SettingsController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T18:58:23.766Z"
             }
           ]
         }
