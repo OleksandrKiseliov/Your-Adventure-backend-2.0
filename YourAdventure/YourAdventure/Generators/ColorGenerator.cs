@@ -28,7 +28,7 @@ namespace YourAdventure.BusinessLogic.Services
         public async Task<Color> NewColor(Color color)
         {
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-            await connection.ExecuteAsync("INSERT INTO Color (ColorId, ColorName) VALUES (@ColorId, @ColorName)", color);
+            await connection.ExecuteAsync("INSERT INTO Color (ColorName) VALUES (@ColorName)", color);
             return color;
         }
     }

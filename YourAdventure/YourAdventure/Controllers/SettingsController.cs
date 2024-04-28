@@ -38,30 +38,30 @@ namespace YourAdventure.Controllers
         }
 
         [HttpGet("language")]
-        public async Task<IActionResult> GetInterfaceLanguage()
+        public async Task<IActionResult> GetInterfaceLanguage(int personId)
         {
-            var language = await _settingsGenerator.GetInterfaceLanguage();
+            var language = await _settingsGenerator.GetInterfaceLanguage(personId);
             return Ok(language);
         }
 
         [HttpGet("notification")]
-        public async Task<IActionResult> GetNotificationSetting()
+        public async Task<IActionResult> GetNotificationSetting(int personId)
         {
-            var isEnabled = await _settingsGenerator.GetNotificationSetting();
+            var isEnabled = await _settingsGenerator.GetNotificationSetting(personId);
             return Ok(isEnabled);
         }
 
         [HttpPost("language")]
-        public async Task<IActionResult> UpdateInterfaceLanguage([FromBody] string language)
+        public async Task<IActionResult> UpdateInterfaceLanguage([FromBody] int language, int personId)
         {
-            await _settingsGenerator.UpdateInterfaceLanguage(language);
+            await _settingsGenerator.UpdateInterfaceLanguage(language, personId);
             return Ok();
         }
 
         [HttpPost("notification")]
-        public async Task<IActionResult> UpdateNotificationSetting([FromBody] bool isEnabled)
+        public async Task<IActionResult> UpdateNotificationSetting([FromBody] bool isEnabled, int personId)
         {
-            await _settingsGenerator.UpdateNotificationSetting(isEnabled);
+            await _settingsGenerator.UpdateNotificationSetting(isEnabled, personId);
             return Ok();
         }
 

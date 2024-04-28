@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 using YourAdventure.BusinessLogic.Services.Interfaces;
@@ -18,43 +19,59 @@ namespace YourAdventure.BusinessLogic.Services
             _config = config;
         }
 
-        public async Task<Settings> GetAllSettings()
+        public async Task<List<Settings>> GetAllSettings()
         {
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-            return await connection.QueryFirstOrDefaultAsync<Settings>("SELECT * FROM Settings ");
+            var settings =  await connection.QueryAsync<Settings>("GetSettings", commandType: CommandType.StoredProcedure);
+            return settings.AsList();
+
         }
 
         public async Task<Settings> CreateNewSettings(Settings settings)
         {
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("interfaceLanguageId", settings.InterfaceLanguageFId);
+            parameters.Add("notification", settings.Notification);
+            parameters.Add("colorId", settings.ColorFId);
+            parameters.Add("personId", settings.PersonFId);
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-
-            await connection.ExecuteAsync("insert into Settings (InterfaceLanguageFId, Notification, ColorFId, PersonFId)" +
-                " values (@InterfaceLanguageFId, @Notification, @ColorFId, @PersonFId)", settings);
+            await connection.ExecuteAsync("CreateSettings", parameters, commandType: CommandType.StoredProcedure);
             return settings;
         }
 
-        public async Task<string> GetInterfaceLanguage()
+        public async Task<int> GetInterfaceLanguage(int personId)
         {
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("personId", personId);
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-            return await connection.QueryFirstOrDefaultAsync<string>("SELECT InterfaceLanguageFID FROM Settings ");
+            return await connection.QueryFirstOrDefaultAsync<int>("GetLanguage", parameters, commandType: CommandType.StoredProcedure);
         }
 
-        public async Task<bool> GetNotificationSetting()
+        public async Task<int> GetNotificationSetting(int personId)
         {
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("personId", personId);
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-            return await connection.QueryFirstOrDefaultAsync<bool>("SELECT Notification FROM Settings ");
+            return await connection.QueryFirstOrDefaultAsync<int>("GetNotification", parameters, commandType: CommandType.StoredProcedure);
         }
 
-        public async Task UpdateInterfaceLanguage(string language)
+        public async Task UpdateInterfaceLanguage(int language, int personId)
         {
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("language", language);
+            parameters.Add("personId", personId);
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-            await connection.ExecuteAsync("UPDATE Settings SET InterfaceLanguageFID = @Language ", new { Language = language });
+            await connection.ExecuteAsync("UpdateLanguage", parameters, commandType: CommandType.StoredProcedure);
+
         }
 
-        public async Task UpdateNotificationSetting(bool isEnabled)
+        public async Task UpdateNotificationSetting(bool isEnabled, int personId)
         {
+            DynamicParameters parameters = new DynamicParameters();
+            parameters.Add("isEnabled", isEnabled);
+            parameters.Add("personId", personId);
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-            await connection.ExecuteAsync("UPDATE Settings SET Notification = @IsEnabled ", new { IsEnabled = isEnabled });
+            await connection.ExecuteAsync("UpdateNotification", parameters, commandType: CommandType.StoredProcedure);
         }
     }
 }

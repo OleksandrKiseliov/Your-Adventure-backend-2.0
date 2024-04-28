@@ -22,7 +22,7 @@ namespace YourAdventure.Controllers
         }
 
         [HttpPost("upload")]
-        public async Task<IActionResult> UploadPhoto([FromForm] FileUploadViewModel model, int countryFId)
+        public async Task<IActionResult> UploadPhoto([FromForm] FileUploadViewModel model, int countryFId, int personFId)
         {
             if (model?.File == null || model.File.Length == 0)
             {
@@ -36,10 +36,12 @@ namespace YourAdventure.Controllers
             var photo = new Photo
             {
                 PhotoStr = Convert.ToBase64String(fileBytes),
-                CountryFId = countryFId
+                PhotoId = countryFId,
+                CountryFId = countryFId,
+                PersonFId = personFId
             };
 
-            var sql = "INSERT INTO Photo (Photo, CountryFId) VALUES (@PhotoStr, @CountryFId); SELECT CAST(SCOPE_IDENTITY() as int);";
+            var sql = "INSERT INTO Photo (PhotoId, Photo, CountryFId, PersonFId) VALUES (@PhotoId, @PhotoStr, @CountryFId, @PersonFId); SELECT CAST(SCOPE_IDENTITY() as int);";
 
             using (var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection")))
             {

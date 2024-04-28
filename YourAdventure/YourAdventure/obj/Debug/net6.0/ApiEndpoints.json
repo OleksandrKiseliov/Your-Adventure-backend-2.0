@@ -348,6 +348,11 @@
         "Name": "countryFId",
         "Type": "System.Int32",
         "IsRequired": false
+      },
+      {
+        "Name": "personFId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -385,7 +390,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -398,8 +409,13 @@
     "Parameters": [
       {
         "Name": "language",
-        "Type": "System.String",
+        "Type": "System.Int32",
         "IsRequired": true
+      },
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -411,7 +427,13 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -426,6 +448,11 @@
         "Name": "isEnabled",
         "Type": "System.Boolean",
         "IsRequired": true
+      },
+      {
+        "Name": "personId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
