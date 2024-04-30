@@ -6,6 +6,7 @@ using YourAdventure.BusinessLogic.Services;
 using YourAdventure.BusinessLogic.Services.Interfaces;
 
 using System.Reflection;
+using YourAdventure.Generators.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -38,6 +39,10 @@ builder.Services.AddScoped<ITokenGenerator, TokenGenerator>();
 builder.Services.AddScoped<IPersonGenerator, PersonGenerator>();
 builder.Services.AddScoped<IVisitedCountriesGenerator, VisitedCountriesGenerator>();
 builder.Services.AddScoped<ICountryGenerator, CountryGenerator>();
+builder.Services.AddScoped<ISettingsGenerator, SettingsGenerator>();
+builder.Services.AddScoped<IInterfaceLanguageGenerator, InterfaceLanguageGenerator>();
+builder.Services.AddScoped<IColorGenerator, ColorGenerator>();
+
 
 builder.Services.AddSwaggerGen(options =>
 {

@@ -22,7 +22,7 @@ namespace YourAdventure.Controllers
             return Ok(persons);
         }
 
-        [HttpGet("{Email}")]
+        [HttpGet("Email")]
         public async Task<ActionResult<Person>> GetPerson(string Email)
         {
             var person = await _personGenerator.GetPerson(Email);
@@ -47,7 +47,7 @@ namespace YourAdventure.Controllers
             return Ok(updatedPerson);
         }
 
-        [HttpDelete("{PersonId}")]
+        [HttpDelete("PersonId")]
         public async Task<ActionResult<List<Person>>> DeletePerson(int PersonId)
         {
             await _personGenerator.DeletePerson(PersonId);

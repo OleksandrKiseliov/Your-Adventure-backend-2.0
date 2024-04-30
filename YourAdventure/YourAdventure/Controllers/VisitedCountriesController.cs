@@ -59,7 +59,7 @@ namespace YourAdventure.Controllers
             return NoContent();
         }
 
-        [HttpGet("{personId}/visitedcountries")]
+        [HttpGet("personId/visitedcountries")]
         public async Task<ActionResult<List<Country>>> GetVisitedCountries(int personId)
         {
             var visitedCountries = await _visitedCountriesGenerator.GetVisitedCountries(personId); 

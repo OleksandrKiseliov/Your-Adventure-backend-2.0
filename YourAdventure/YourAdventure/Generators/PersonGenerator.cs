@@ -119,5 +119,27 @@ public class PersonGenerator : IPersonGenerator
         return hashedPassword == hashedProvidedPassword;
     }
 
+    public async Task InsertJsonDataFromFileAsync(string filePath, string columnName, string tableName)
+    {
+        try
+        {
+            // Read the content of the JSON file
+            string jsonContent = File.ReadAllText(filePath);
+
+            // Establish connection to SQL Server
+            using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+            await connection.OpenAsync();
+
+            // Build SQL command to insert JSON content into the specified table and column
+            string sql = $"INSERT INTO {tableName} ({columnName}) VALUES (@JsonContent)";
+            await connection.ExecuteAsync(sql, new { JsonContent = jsonContent });
+
+            Console.WriteLine("JSON content inserted into the database successfully.");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"An error occurred: {ex.Message}");
+        }
+    }
 
 }

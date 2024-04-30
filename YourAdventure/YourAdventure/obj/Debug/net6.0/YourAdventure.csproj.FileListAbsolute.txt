@@ -485,3 +485,4 @@ C:\Users\123\Desktop\ya\Your-Adventure-backend\YourAdventure\YourAdventure\bin\D
 C:\Users\123\Desktop\ya\Your-Adventure-backend\YourAdventure\YourAdventure\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
 C:\Users\123\Desktop\ya\Your-Adventure-backend\YourAdventure\YourAdventure\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\123\Desktop\ya\Your-Adventure-backend\YourAdventure\YourAdventure\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sport\source\repos\Your-Adventure-backend\YourAdventure\YourAdventure\bin\Debug\net6.0\Newtonsoft.Json.dll

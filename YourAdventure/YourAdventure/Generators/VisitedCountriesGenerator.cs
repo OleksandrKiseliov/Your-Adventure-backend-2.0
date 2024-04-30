@@ -52,10 +52,11 @@ namespace YourAdventure.BusinessLogic.Services
         {
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
             return (await connection.QueryAsync<Country>(
-                @"SELECT c.*
+                @"SELECT c.Geojson, c.CountryName
                   FROM Country c
                   INNER JOIN VisitedCountries vc ON c.CountryId = vc.CountryFId
-                  WHERE vc.PersonFId = @personId",
+                  WHERE vc.PersonFId = @personId "
+,
                 new { personId })).AsList();
         }
     }

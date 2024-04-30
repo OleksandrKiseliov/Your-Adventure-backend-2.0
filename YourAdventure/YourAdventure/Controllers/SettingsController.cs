@@ -15,17 +15,26 @@ namespace YourAdventure.Controllers
     [ApiController]
     public class  SettingsController : ControllerBase
     {
-        private readonly IConfiguration _config;
 
-        public SettingsController(IConfiguration config)
-        {
-            _config = config;
-        }
         private readonly ISettingsGenerator _settingsGenerator;
 
         public SettingsController(ISettingsGenerator settingsGenerator)
         {
             _settingsGenerator = settingsGenerator;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAllSettings()
+        {
+            var settings = await _settingsGenerator.GetAllSettings();
+            return Ok(settings);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CreateNewSettings(Settings settings)
+        {
+            var newSettings = await _settingsGenerator.CreateNewSettings(settings);
+            return Ok(newSettings);
         }
 
         [HttpGet("language")]
