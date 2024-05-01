@@ -24,7 +24,7 @@ public class FileController : ControllerBase
     [HttpPost("process-files")]
     public async Task <IActionResult>  ProcessFiles()
     {
-        string folderPath = @"D:\join\FrontReal\Your-Adventure-frontend\src\bigc";
+        string folderPath = @"D:\join\FrontReal\Your-Adventure-frontend\src\countries";
         
         try
         {
