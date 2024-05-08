@@ -9,6 +9,7 @@ using YourAdventure;
 using System.Reflection;
 using System.Text;
 using System.Security.Cryptography;
+using System.Data;
 
 public class PersonGenerator : IPersonGenerator
 {
@@ -29,8 +30,11 @@ public class PersonGenerator : IPersonGenerator
     public async Task<Person> GetPerson(string Email)
     {
         using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-        var person = await connection.QueryFirstOrDefaultAsync<Person>("select * from person where Email = @Email",
-            new { Email = Email });
+        var person = await connection.QueryFirstOrDefaultAsync<Person>(
+    "GetPersonByEmails",
+    new { Email = Email },
+    commandType: CommandType.StoredProcedure
+);
         return person;
     }
 
@@ -47,8 +51,16 @@ public class PersonGenerator : IPersonGenerator
             // Якщо користувача з таким email не існує, то виконується вставка нового запису
             
             person.Password = HashPassword(person.Password);
-            await connection.ExecuteAsync("insert into Person (Nickname, Bday, Email, Profilepicture, Password)" +
-                " values (@Nickname, @Bday, @Email, @Profilepicture, @Password)", person);
+            await connection.ExecuteAsync("SignUp",
+     new
+     {
+         Nickname = person.Nickname,
+         Bday = person.Bday,
+         Email = person.Email,
+         Profilepicture = person.Profilepicture,
+         Password = person.Password
+     },
+     commandType: CommandType.StoredProcedure);
             return person;
         }
         else
@@ -63,9 +75,24 @@ public class PersonGenerator : IPersonGenerator
     public async Task<Person> UpdatePerson(Person person)
     {
         using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
-        await connection.ExecuteAsync("update Person set Nickname = @Nickname, Bday = @Bday, Email = @Email, Profilepicture = @Profilepicture, Password = @Password where PersonId = @PersonId", person);
+
+      
+        string hashedPassword = HashPassword(person.Password);
+
+      
+        await connection.ExecuteAsync("update Person set Nickname = @Nickname, Bday = @Bday, Email = @Email, Profilepicture = @Profilepicture, Password = @Password where PersonId = @PersonId", new
+        {
+            person.Nickname,
+            person.Bday,
+            person.Email,
+            person.Profilepicture,
+            Password = hashedPassword, 
+            person.PersonId
+        });
+
         return person;
     }
+
 
     public async Task<List<Person>> DeletePerson(int PersonId)
     {

@@ -30,6 +30,12 @@ namespace YourAdventure.BusinessLogic.Services
             var country = await connection.QueryFirstOrDefaultAsync<Country>("SELECT * FROM Country WHERE CountryId = @CountryId", new { CountryId = countryId });
             return country;
         }
+        public async Task<Country> GetCountryByName(string CountryName)
+        {
+            using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+            var country = await connection.QueryFirstOrDefaultAsync<Country>("SELECT * FROM Country WHERE CountryName = @CountryName", new { CountryName = CountryName });
+            return country;
+        }
 
         public async Task<Country> NewCountry(Country country)
         {

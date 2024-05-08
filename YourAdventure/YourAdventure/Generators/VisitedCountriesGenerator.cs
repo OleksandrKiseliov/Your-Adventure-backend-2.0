@@ -1,6 +1,7 @@
 ﻿using Dapper;
 using Microsoft.Extensions.Configuration;
 using System.Collections.Generic;
+using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 using YourAdventure.BusinessLogic.Services.Interfaces;
@@ -34,9 +35,13 @@ namespace YourAdventure.BusinessLogic.Services
         public async Task<VisitedCountries> AddVisitedCountry(VisitedCountries visitedCountry)
         {
             using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+
+            // Виклик збереженої процедури через Dapper
             await connection.ExecuteAsync(
-                "INSERT INTO VisitedCountries (PersonFId, CountryFId) VALUES (@PersonFId, @CountryFId)",
-                visitedCountry);
+                "visitCountry", // Ім'я збереженої процедури
+                new { PersonFId = visitedCountry.PersonFId, CountryFId = visitedCountry.CountryFId },
+                commandType: CommandType.StoredProcedure);
+
             return visitedCountry;
         }
 

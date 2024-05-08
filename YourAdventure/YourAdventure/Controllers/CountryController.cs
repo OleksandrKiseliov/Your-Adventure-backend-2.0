@@ -38,6 +38,17 @@ namespace YourAdventure.Controllers
             }
             return Ok(country);
         }
+        [HttpGet("CountryName")]
+        public async Task<ActionResult<Country>> GetCountryByName(string CountryName)
+        {
+            using var connection = new SqlConnection(_config.GetConnectionString("DefaultConnection"));
+            var country = await connection.QueryFirstOrDefaultAsync<Country>("SELECT * FROM Country WHERE CountryName = @CountryName", new { CountryName });
+            if (country == null)
+            {
+                return NotFound();
+            }
+            return Ok(country);
+        }
 
         [HttpPost]
         public async Task<ActionResult<Country>> NewCountry(Country country)
